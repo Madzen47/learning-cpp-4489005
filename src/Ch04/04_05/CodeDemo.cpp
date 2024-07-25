@@ -26,6 +26,29 @@ int main(){
 
     // Calculate the GPA for the selected student.
     // Write your code here
+    float points = 0.0f, credits = 0.0f;
+    switch (Grades)
+    {
+        case 'A':
+            points = 4;
+            break;
+        case 'B':
+            points = 3;
+            break;        
+        case 'C':
+            points = 2;
+            break;        
+        case 'D':
+            points = 1;
+            break;
+        case 'F':
+            points = 0;
+            break; 
+    }
+
+
+
+
 
     std::string student_str;
     student_str = students[0].get_name(); // Change this to the selected student's name
